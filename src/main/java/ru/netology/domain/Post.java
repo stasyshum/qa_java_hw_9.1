@@ -1,13 +1,15 @@
 package ru.netology.domain;
 
 public class Post {
-    private String imageUrl;
-    private int createdBy;
+
     private CommentsInfo commentsInfo;
     private LikesInfo likesInfo;
     private RepostInfo repostInfo;
     private ViewsInfo viewsInfo;
     private GeoInfo geoInfo;
+
+    private String imageUrl;
+    private int createdBy;
     private String date;
     private String text;
     private int ownerId;
